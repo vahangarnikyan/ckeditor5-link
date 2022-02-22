@@ -3,7 +3,6 @@
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
-@import "~ckeditor/ckeditor5-ui/theme/mixins/_rwd.css";
 
 .ck.ck-link-actions {
 	display: flex;
@@ -18,15 +17,4 @@
 		}
 	}
 
-	@mixin ck-media-phone {
-		flex-wrap: wrap;
-
-		& .ck-link-actions__preview {
-			flex-basis: 100%;
-		}
-
-		& .ck-button:not(.ck-link-actions__preview) {
-			flex-basis: 50%;
-		}
-	}
 }
